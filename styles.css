@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'arial', sans-serif;
+}
+
+body.container {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.todo-pantalla {
+    width: 100%; 
+    height: 100%; 
+    display: grid; 
+    grid-template-rows: 3.5rem auto 8rem;
+}
+
+
+.principal-form{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url("https://previews.123rf.com/images/attitude/attitude1703/attitude170300035/74890592-viejo-fondo-de-papel-blanco-con-textura-grunge-gris-vintage-color-de-fondo-neutro-p%C3%A1lido.jpg?fj=1");
+}
